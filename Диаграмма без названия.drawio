@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T04:18:24.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="7KwjM9SgKIpAAE2VJ11m" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T04:20:51.346Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="T819XT2m3yti2LEnd_Mi" version="22.1.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1235" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="GILA-4fVAI7WXsewxJLm-1" value="ID Визуализации" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="300" width="140" height="150" as="geometry" />
+          <mxGeometry x="355" y="300" width="140" height="180" as="geometry" />
         </mxCell>
         <mxCell id="GILA-4fVAI7WXsewxJLm-2" value="Название местности" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GILA-4fVAI7WXsewxJLm-1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -18,6 +18,9 @@
         </mxCell>
         <mxCell id="GILA-4fVAI7WXsewxJLm-5" value="&lt;div&gt;ID растительности (FK)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GILA-4fVAI7WXsewxJLm-1">
           <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GILA-4fVAI7WXsewxJLm-19" value="&lt;div&gt;ID космического снимка (FK)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GILA-4fVAI7WXsewxJLm-1">
+          <mxGeometry y="150" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GILA-4fVAI7WXsewxJLm-6" value="ID растительности" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="230" width="140" height="120" as="geometry" />
@@ -47,6 +50,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GILA-4fVAI7WXsewxJLm-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GILA-4fVAI7WXsewxJLm-13" target="GILA-4fVAI7WXsewxJLm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GILA-4fVAI7WXsewxJLm-20" value="ID космического снимка" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="110" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GILA-4fVAI7WXsewxJLm-21" value="Дата съемки" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GILA-4fVAI7WXsewxJLm-20">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GILA-4fVAI7WXsewxJLm-23" value="Координаты объекта" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GILA-4fVAI7WXsewxJLm-20">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GILA-4fVAI7WXsewxJLm-24" value="Площадь съемки" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GILA-4fVAI7WXsewxJLm-20">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GILA-4fVAI7WXsewxJLm-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GILA-4fVAI7WXsewxJLm-21" target="GILA-4fVAI7WXsewxJLm-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
